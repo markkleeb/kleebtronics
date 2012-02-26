@@ -1,0 +1,63 @@
+<html>
+  <head>
+  <link rel=Stylesheet type="text/css" href="/~mk3981/sinatra/kleebtronics/public/kleebtronics.css" />
+ <script src="http://code.jquery.com/jquery-latest.js"></script>
+  
+  <script type="text/javascript">
+    
+    function mouseOverLogo() {
+   document.getElementById("logo").src ="/~mk3981/sinatra/kleebtronics/public/logo.png"
+    
+}
+
+function mouseOutLogo(){
+    document.getElementById("logo").src ="/~mk3981/sinatra/kleebtronics/public/logo-green.png"
+    
+}
+
+
+    
+window.onload = function () {
+    var header = document.getElementById("header-pic");
+    var pictures = new Array('/~mk3981/ball-header.jpg','/~mk3981/mixer-header.jpg','/~mk3981/lights-header.jpg','/~mk3981/synth-header.jpg');
+    var numPics = pictures.length;
+    if (document.images) {
+        var chosenPic = Math.floor((Math.random() * numPics));
+        header.style.background = 'url(' + pictures[chosenPic] + ')';
+    }
+}
+    
+</script>
+ 
+ 
+ <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <title>kleebtronics <%= @page_title %></title>
+  </head>
+  <body class="<%= @page_title %>">
+  <div id="header">
+  
+  <div id="logobox">
+  <a href="http://stu.itp.nyu.edu/~mk3981/sinatra/kleebtronics"><img id="logo" src="http://stu.itp.nyu.edu/~mk3981/sinatra/kleebtronics/public/logo-green.png" width="150" onmouseover="mouseOverLogo()" onmouseout="mouseOutLogo()"/></a>
+  </div>
+  
+  <div id="header-pic">
+</div>
+
+<div id="menu">
+  <ul id="nav" class="menu">
+    <li id="menu" class="blog" onmouseover="mouseOverMenu()"
+onmouseout="mouseOutMenu()"><a href="/~mk3981/blog">Blog</a></li>
+    <li id="menu" class="about" onmouseover="mouseOverMenu()"
+onmouseout="mouseOutMenu()"><a href="/~mk3981/sinatra/kleebtronics/about">About</a></li>
+    <li id="menu" class="portfolio" onmouseover="mouseOverMenu()"
+onmouseout="mouseOutMenu()"><a href="/~mk3981/sinatra/kleebtronics/portfolio">Portfolio</a></li>
+    <li id="menu" class="contact" onmouseover="mouseOverMenu()"
+onmouseout="mouseOutMenu()"><a href="/~mk3981/sinatra/kleebtronics/contact">Contact</a></li>
+  </ul>
+</div>
+
+</div>
+<%= yield %>
+
+</body>
+</html>

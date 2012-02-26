@@ -1,0 +1,5 @@
+PassengerEnabled on
+RackBaseURI /sinatra
+PassengerAppRoot /home/mk3981/sinatra/example1
+RackEnv development
+

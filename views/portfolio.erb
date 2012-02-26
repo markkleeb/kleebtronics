@@ -1,0 +1,9 @@
+<div id="portfolio">
+<div id="image-map">
+<% @projects.each do |project| %>
+<div id="project-image">
+    <a class="main-image" href="http://stu.itp.nyu.edu/~mk3981/sinatra/kleebtronics/portfolio/<%= project.id %>" width="130" height="130"><img class="main" src="<%= project.img_url %>" width="130"><img class="hover-image" src="<%= project.img_hover %>" display="none" width="130"></a>
+</div>
+<% end %>
+</div>
+</div>

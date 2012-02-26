@@ -1,0 +1,307 @@
+ body{
+       width: auto;
+       border-style: solid;
+       border-width: 0px 150px 0px 150px;
+       border-color: black;
+font-family: helvetica, arial;
+font-size: large;
+color: white;
+background-color: black;
+line-height: 1.6em;
+}
+
+#header {
+      
+      margin: 20px 0px 0px 0px;
+      background-color: #2e2424;
+      width:800px;
+      height: 203px;
+      border-style: solid;
+        border-width: 3px 3px 3px 3px;
+        border-color: #8BC53F;
+      
+
+      
+}
+
+@font-face {
+        font-family: BureauAgency;
+        src: url('http://stu.itp.nyu.edu/~mk3981/BureauAgency.otf');
+      }
+       
+      
+
+a:link,
+a:visited{
+       text-decoration:none;
+       color: #8BC53F;
+}
+
+
+
+#nav li:hover a {
+       text-decoration: none;
+       color: black;       
+}
+
+
+
+body.blog li.blog a,
+body.about li.about a,
+body.portfolio li.portfolio a,
+body.contact li.contact a
+{
+      color: black;
+       
+}
+
+
+
+body.blog li.blog,
+body.about li.about,
+body.portfolio li.portfolio,
+body.contact li.contact,
+#nav li:hover
+{
+      background-color: #8BC53F;
+       
+}
+
+
+#header-pic {
+    width:600px;
+    z-index:900;
+    height:150px;
+    margin: 0px 0px 0px 200px;
+    position: absolute;
+    float: left;
+    border-color: #8BC53F;
+    border-width: 0px 0px 3px 0px;
+    border-style: solid;
+    
+}
+
+#nav {
+      padding: 134px 0px 0px 0px;
+      
+}
+ 
+ 
+ ul.menu, ul.menu li, ul.menu ul {
+        list-style: none;
+        z-index: 800;
+        position: absolute;
+        font-family: BureauAgency;
+        font-size: 1em;
+        padding: 25px 0px 0px 0px;
+        border-style: solid;
+        border-color: #8BC53F;
+        border-width: 0px 0px 3px 0px;
+       
+       
+        
+      }
+
+      ul.menu li {
+      
+       
+        padding: 10px 10px 10px 10px;
+        border-style: solid;
+        border-width: 1px 1px 1px 1px;
+        border-color: #8BC53F;
+        background-color: #2e2424;
+        float: left;
+        position: relative;
+        margin: 0px;
+      }
+      
+      ul.menu li:hover{
+       background-color:white;
+       color: black;
+      }
+      
+      
+      #logobox {
+       position: absolute;
+       z-index: 900;
+       float: left;
+       margin: 0px 0px 0px 0px;
+       padding: 0px 50px 0px 20px;
+       border-width: 0px 0px 3px 0px;
+       border-style: solid;
+       border-color: #8BC53F;
+       
+      }
+      
+      
+      
+      body.single_project #portfolio,
+      body.portfolio #portfolio,
+      body.main #main-updates,
+      body.about #about,
+      body.thanks #thanks,
+      body.contact #contact,
+      body.portfolio #portfolio,
+      body.addproject #addproject
+      {
+            
+            padding: 50px 0px 0px 0px;
+            width: 800px;
+      }
+      
+      body.portfolio #portfolio{
+            padding: 0px;
+      }
+      
+      
+      
+      body.about img.kleeb{
+       
+       z-index: 500;
+    margin: 0px 0px 30px 0px;
+    display: inline;
+    position: absolute;
+       
+      
+      }
+      
+      
+      
+       body.about #aboutme{
+            display: inline;
+            font-size: 0.7em;
+            position: absolute;
+            float: left;
+            padding: 0px 90px 15px 20px;
+            margin: 0px 50px 0px 0px;
+            
+       }
+      
+      body.about #aboutme a,
+      body.main #update a{
+            
+            text-decoration: underline;
+            color: white;
+      }
+      
+      
+form {
+    padding: 50px 0px 10px 0px;
+    margin: 30px 0px 30px 0px;
+   
+    
+}
+
+
+
+body.main #update
+{
+      font-size: 0.8em;
+      border: solid;
+      border-color: #8BC53F;
+      border-width: 0px 0px 3px 0px;
+      
+}
+
+
+
+ body.contact #location,
+ body.addproject form #addproject
+ {
+            display: inline;
+            font-size: 0.7em;
+            position: absolute;
+            float: left;
+            padding: 0px 90px 15px 0px;
+            line-height: 0.8em;
+          
+            
+       }
+
+body.about #kleeblinks a{
+      text-decoration: underline;
+      color: white;
+      font-size: 0.7em;
+      line-height:0.8em;
+      
+}
+
+h2{
+      color: #8BC53F;
+      font-size: 1.2em;
+      font-family: BureauAgency;
+      
+}
+
+#submit {
+    position: absolute;
+    padding: 130px 0px 0px 200px;
+}
+
+.text{
+    position:absolute;
+    display:inline;
+    text-align:left;
+    color: #8BC53F;
+      font-family: BureauAgency;
+    padding: 10px 30px 30px 0px;
+}
+
+.input{
+    position:absolute;
+    text-align:left;
+    display:inline;
+    font-family:helvetica;
+    padding: 10px 30px 50px 200px;
+}
+
+#image-map{
+      position: absolute;
+      padding: 10px 0px 10px 360px;
+      width: 450px;
+}
+#main-image{
+      background-color: #2e2424;
+      position: absolute;
+      padding: 0px 25px 0px 25px;
+      width: 300px;
+}
+
+#project-title{
+      text-align: left;
+      
+}
+
+#project-year{
+      text-align: right;
+      display: inline;
+}
+#project-image{
+       
+       margin: 0px 0px 0px 0px;
+       padding: 0px 0px 0px 0px;
+      height: 130px;
+      display: inline;
+      border-width: 5px;
+     border-style: solid;
+      border-color: black;
+}
+
+.main-image
+.hover-image{
+      display:none;
+}
+
+
+#project-image a:hover
+.main{
+    display:none;
+}
+
+#project-image a:hover
+.hover-image{
+      
+      display: inline;
+      
+}
+
