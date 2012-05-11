@@ -17,6 +17,9 @@ class Project
   property :description, String
 end
 
+DataMapper.finalize
+DataMapper.auto_upgrade!
+
 # Main route  - this is the form where we take the input
 get '/' do
   @page_title = "portfolio"
