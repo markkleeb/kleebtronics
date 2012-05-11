@@ -3,7 +3,7 @@ require 'sinatra'
 require 'dm-core'
 require 'pony'
 
-DataMapper::setup(:default, ENV['DATABASE_URL']||{:adapter => 'yaml', :path => 'db'})
+DataMapper::setup(:default, ENV['DATABASE_URL'])
 
 class Project
   include DataMapper::Resource
