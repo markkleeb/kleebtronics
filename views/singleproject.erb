@@ -1,0 +1,18 @@
+
+<div id="portfolio">
+<div id="main-image">
+<h2><div id="project-title"><%= this_project.title %></div><div id="project-year"><%= this_project.year %></div></h2>
+<img src = "<%= this_project.img_url %>" width = "300">
+<p>
+<%= this_project.description %>
+</p>
+<p>
+<%= this_project.link %>
+</p>
+</div>
+<div id="image-map">
+<% @projects.each do |project| %>
+    <a href="http://stu.itp.nyu.edu/~mk3981/sinatra/kleebtronics/portfolio/<%= project.id %>"><img src="<%= project.img_url %>" width="150"></a>
+<% end %>
+</div>
+</div>

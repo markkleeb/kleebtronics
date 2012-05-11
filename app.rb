@@ -3,7 +3,7 @@ require 'sinatra'
 require 'dm-core'
 require 'pony'
 
-DataMapper::setup(:default, {:adapter => 'yaml', :path => 'db'})
+DataMapper::setup(:default, ENV['DATABASE_URL']||{:adapter => 'yaml', :path => 'db'})
 
 class Project
   include DataMapper::Resource
@@ -19,9 +19,10 @@ end
 
 # Main route  - this is the form where we take the input
 get '/' do
-  @page_title = "main"
+  @page_title = "portfolio"
+  @projects = Project.all
 
-  erb :main
+  erb :portfolio
   
   
 end

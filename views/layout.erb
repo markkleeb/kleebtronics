@@ -1,6 +1,7 @@
 <html>
   <head>
-  <link rel=Stylesheet type="text/css" href="/~mk3981/sinatra/kleebtronics/public/kleebtronics.css" />
+  <link rel=Stylesheet type="text/css" href="/~mk3981/sinatra/kleebtronics/css/kleebtronics.css" />
+  <link rel=Stylesheet type="text/css" href="/~mk3981/sinatra/kleebtronics/css/bootstrap.css" />
  <script src="http://code.jquery.com/jquery-latest.js"></script>
   
   <script type="text/javascript">
@@ -16,48 +17,63 @@ function mouseOutLogo(){
 }
 
 
-    
-window.onload = function () {
-    var header = document.getElementById("header-pic");
-    var pictures = new Array('/~mk3981/ball-header.jpg','/~mk3981/mixer-header.jpg','/~mk3981/lights-header.jpg','/~mk3981/synth-header.jpg');
-    var numPics = pictures.length;
-    if (document.images) {
-        var chosenPic = Math.floor((Math.random() * numPics));
-        header.style.background = 'url(' + pictures[chosenPic] + ')';
-    }
-}
-    
+
+#window.onload = function () {
+#    var header = document.getElementById("header-pic");
+#    var pictures = new Array('/~mk3981/sinatra/kleebtronics/public/ball-header.jpg','/~mk3981/sinatra/kleebtronics/public/mixer-header.jpg','/~mk3981/sinatra/kleebtronics/public/lights-header.jpg','/~mk3981/sinatra/kleebtronics/public/synth-header.jpg');
+#    var numPics = pictures.length;
+#    if (document.images) {
+#        var chosenPic = Math.floor((Math.random() * numPics));
+#        header.style.background = 'url(' + pictures[chosenPic] + ')';
+#    }
+#}
+  
 </script>
- 
- 
  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
   <title>kleebtronics <%= @page_title %></title>
   </head>
+  
+  
   <body class="<%= @page_title %>">
-  <div id="header">
-  
+ <div id="header">  
+ <div class="row">
+  <div class="span2">
   <div id="logobox">
-  <a href="http://stu.itp.nyu.edu/~mk3981/sinatra/kleebtronics"><img id="logo" src="http://stu.itp.nyu.edu/~mk3981/sinatra/kleebtronics/public/logo-green.png" width="150" onmouseover="mouseOverLogo()" onmouseout="mouseOutLogo()"/></a>
+  <a href="http://stu.itp.nyu.edu/~mk3981/sinatra/kleebtronics/"><img id="logo" src="http://stu.itp.nyu.edu/~mk3981/sinatra/kleebtronics/public/logo-green.png" width="150" onmouseover="mouseOverLogo()" onmouseout="mouseOutLogo()"/></a>
   </div>
-  
-  <div id="header-pic">
-</div>
-
+  </div>
+<div class="span8">
 <div id="menu">
   <ul id="nav" class="menu">
     <li id="menu" class="blog" onmouseover="mouseOverMenu()"
 onmouseout="mouseOutMenu()"><a href="/~mk3981/blog">Blog</a></li>
-    <li id="menu" class="about" onmouseover="mouseOverMenu()"
-onmouseout="mouseOutMenu()"><a href="/~mk3981/sinatra/kleebtronics/about">About</a></li>
     <li id="menu" class="portfolio" onmouseover="mouseOverMenu()"
 onmouseout="mouseOutMenu()"><a href="/~mk3981/sinatra/kleebtronics/portfolio">Portfolio</a></li>
     <li id="menu" class="contact" onmouseover="mouseOverMenu()"
 onmouseout="mouseOutMenu()"><a href="/~mk3981/sinatra/kleebtronics/contact">Contact</a></li>
   </ul>
 </div>
+</div>
+</div>
+</div>
+
 
 </div>
 <%= yield %>
-
+<div id="footer">
+<ul id="nav" class="menu">
+<li id="menu" class="twitter"><a href="http://twitter.com/#!/kleeb930" target="_blank">Twitter</a>
+</li>
+<li id="menu" class="facebook">
+<a href="http://www.facebook.com/kleeb" target="_blank">Facebook</a>
+</li>
+<li id="menu" class="vimeo">
+<a href="http://vimeo.com/user8412426/videos" target="_blank">Vimeo</a>
+</li>
+<li id="menu" class="github">
+<a href="https://github.com/markkleeb" target="_blank">GitHub</a>
+</li>
+</ul>
+</div>
 </body>
 </html>

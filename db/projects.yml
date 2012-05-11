@@ -1,0 +1,92 @@
+--- 
+- id: 9
+  link: http://stu.itp.nyu.edu/~mk3981/blog/?p=1071
+  description: A short film written and directed for CommLab Video and Sound
+  year: "2011"
+  img_hover: http://stu.itp.nyu.edu/~mk3981/sinatra/kleebtronics/public/the-job-thumb-hover.jpg
+  img_url: http://stu.itp.nyu.edu/~mk3981/sinatra/kleebtronics/public/the-job-thumb.jpg
+  title: The Job
+- id: 13
+  link: http://stu.itp.nyu.edu/~mk3981/blog/?p=757
+  description: A MAME Arcade Cabinet installed in the venue of Death by Audio
+  year: "2011"
+  img_hover: http://stu.itp.nyu.edu/~mk3981/sinatra/kleebtronics/public/arcade-hover.jpg
+  img_url: http://stu.itp.nyu.edu/~mk3981/sinatra/kleebtronics/public/arcade-thumb.jpg
+  title: Death by Arcade MAME Cabinet
+- id: 7
+  link: http://stu.itp.nyu.edu/~mk3981/blog/?p=1098
+  description: zOrb is a wireless interactive media controller using Arduino and Bluetooth technology to control video and audio effects.
+  year: "2011"
+  img_hover: http://stu.itp.nyu.edu/~mk3981/sinatra/kleebtronics/public/zorb-hover.jpg
+  img_url: http://stu.itp.nyu.edu/~mk3981/sinatra/kleebtronics/public/zorb.jpg
+  title: "zOrb: Interactive Media Controller"
+- id: 8
+  link: http://stu.itp.nyu.edu/~mk3981/blog/?p=1057
+  description: This Video Mixer uses an Arduino to interface with Processing and Max/MSP to control video effects.
+  year: "2011"
+  img_hover: http://stu.itp.nyu.edu/~mk3981/sinatra/kleebtronics/public/mixer-hover.jpg
+  img_url: http://stu.itp.nyu.edu/~mk3981/sinatra/kleebtronics/public/ProjBox2.jpg
+  title: Video Mixer
+- id: 6
+  link: http://stu.itp.nyu.edu/~mk3981/blog/?p=1084
+  description: This stop-motion animation was created using three separate interviews by individuals involved with different aspects of Death By Audio.
+  year: "2011"
+  img_hover: http://stu.itp.nyu.edu/~mk3981/sinatra/kleebtronics/public/dba-stop-motion-hover.jpg
+  img_url: http://stu.itp.nyu.edu/~mk3981/sinatra/kleebtronics/public/dba-stop-motion.jpg
+  title: Death By Audio in Stop-Motion
+- id: 5
+  link: http://stu.itp.nyu.edu/~mk3981/blog/?p=1111
+  description: This interactive bar uses TUIO technology to interface objects on top of the bar with a game that is projected on the surface.
+  year: "2011"
+  img_hover: http://stu.itp.nyu.edu/~mk3981/sinatra/kleebtronics/public/touchbar-hover.jpg
+  img_url: http://stu.itp.nyu.edu/~mk3981/sinatra/kleebtronics/public/touchbar-thumb.jpg
+  title: TUIO Interactive Bar
+- id: 2
+  link: http://stu.itp.nyu.edu/~mk3981/blog/?p=1241
+  description: This variable bench power supply was modeled after a schematic from the Basic Analog Circuits class at ITP. It supplies 3V - 31V and uses banana connectors to power the breadboard.
+  year: "2012"
+  img_hover: http://stu.itp.nyu.edu/~mk3981/sinatra/kleebtronics/public/power-supply-hover.jpg
+  img_url: http://stu.itp.nyu.edu/~mk3981/sinatra/kleebtronics/public/power-supply-thumb.jpg
+  title: Bench Power Supply
+- id: 12
+  link: http://stu.itp.nyu.edu/~mk3981/blog/?p=858
+  description: This synthesizer was built using the Pocket Piano Arduino synth shield from Critter and Guitari. The enclosure and buttons are made of wood and plexiglass, and the exterior is coated with Tolex.
+  year: "2011"
+  img_hover: http://stu.itp.nyu.edu/~mk3981/sinatra/kleebtronics/public/Synth-hover.jpg
+  img_url: http://stu.itp.nyu.edu/~mk3981/sinatra/kleebtronics/public/Synth-thumb.jpg
+  title: Arduino Pocket Piano
+- id: 1
+  link: http://stu.itp.nyu.edu/~mk3981/blog/?p=1311
+  description: The Waiting Game is a scaled down model of an airport check-in queue. To distract from the frustration of waiting in line, small projections of airplanes are projected onto the floor and will navigate around the patrons of the line while they wait.
+  year: "2012"
+  img_hover: http://stu.itp.nyu.edu/~mk3981/sinatra/kleebtronics/public/airport-hover.jpg
+  img_url: http://stu.itp.nyu.edu/~mk3981/sinatra/kleebtronics/public/airport.jpg
+  title: The Waiting Game
+- id: 3
+  link: http://stu.itp.nyu.edu/~mk3981/sinatra/kleebtronics/public/Random_Walk/applet_js/index.html
+  description: An autonomous object navigates randomly through a space, but never crosses its own path. Written in Processing.
+  year: "2012"
+  img_hover: http://stu.itp.nyu.edu/~mk3981/sinatra/kleebtronics/public/RandomWalk-hover.jpg
+  img_url: http://stu.itp.nyu.edu/~mk3981/sinatra/kleebtronics/public/RandomWalk.jpg
+  title: Self-Avoiding Walk
+- id: 4
+  link: http://stu.itp.nyu.edu/~mk3981/blog/?p=1256
+  description: "\"Ants\" navigate through a maze to reach the end goal. Written in Processing."
+  year: "2012"
+  img_hover: http://stu.itp.nyu.edu/~mk3981/sinatra/kleebtronics/public/Maze-hover.jpg
+  img_url: http://stu.itp.nyu.edu/~mk3981/sinatra/kleebtronics/public/Maze.jpg
+  title: Ants in a Maze
+- id: 11
+  link: http://stu.itp.nyu.edu/~mk3981/sinatra/kleebtronics/public/SpaceInvader2/applet_js/index.html
+  description: A shooting game built in Processing
+  year: "2011"
+  img_hover: http://stu.itp.nyu.edu/~mk3981/sinatra/kleebtronics/public/SpaceShooter-hover.jpg
+  img_url: http://stu.itp.nyu.edu/~mk3981/sinatra/kleebtronics/public/SpaceShooter.jpg
+  title: Space Shooter
+- id: 10
+  description: Feed the fish and watch them get bigger. Written in Processing
+  link: http://stu.itp.nyu.edu/~mk3981/ICM2011/FishTank/applet/
+  year: "2011"
+  img_hover: http://stu.itp.nyu.edu/~mk3981/sinatra/kleebtronics/public/FishTank-hover.jpg
+  img_url: http://stu.itp.nyu.edu/~mk3981/sinatra/kleebtronics/public/fishtank.jpg
+  title: Fish Tank
