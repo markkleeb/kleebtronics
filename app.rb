@@ -1,6 +1,8 @@
 require 'rubygems'
 require 'sinatra'
-require 'dm-core'
+require 'data_mapper'
+require 'dm_postgres-adapter'
+require 'do_postgres'
 require 'pony'
 
 DataMapper::setup(:default, ENV['DATABASE_URL'])
