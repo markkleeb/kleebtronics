@@ -1,7 +1,7 @@
 require 'rubygems'
 require 'sinatra'
 require 'data_mapper'
-require 'dm_postgres-adapter'
+require 'dm-postgres-adapter'
 require 'do_postgres'
 require 'pony'
 
