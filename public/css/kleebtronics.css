@@ -85,7 +85,9 @@ body.performances li.performances,
 }
 
 #nav {
-      padding: 65px 0px 0px 200px;
+      margin-top: 65px;
+      margin-left: 200px;
+      padding: 0px 0px 0px 0px;
       height: 120px;
       background-image: url('/img/patterns/dark_brick_wall.png');
       
@@ -203,19 +205,20 @@ body.main #update
  body.contact #location,
  body.addproject form #addproject
  {
+            width: 800px;
             display: block;
             font-size: 0.7em;
             float: left;
             padding: 0px 90px 15px 0px;
             line-height: 0.8em;
-            height: 200px;
+            height: 100px;
           
             
        }
        
        body.contact #form
        {
-            
+            width: 800px;
             height: 400px;
             display: block;
             
