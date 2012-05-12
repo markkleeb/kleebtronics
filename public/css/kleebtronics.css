@@ -61,9 +61,9 @@ a:visited{
 body.blog li.blog a,
 body.blog li.blog a:visited,
 body.about li.about a,
-body.about li.about a:visited,
-body.portfolio li.portfolio a,
-body.portfolio li.portfolio a:visited,
+.about li.about a:visited,
+.portfolio li.portfolio a,
+.portfolio li.portfolio a:visited,
 body.contact li.contact a,
 body.contact li.contact a:visited,
 body.performances li.performances a,
@@ -83,6 +83,7 @@ body.performances li.performances,
 #nav li:hover
 {
       background-image: url('/img/patterns/dark_brick_wall.png');
+       color: #8BC53F;
       
        
 }
