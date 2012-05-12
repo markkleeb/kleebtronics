@@ -55,7 +55,7 @@ a:visited{
 body.blog li.blog a,
 body.about li.about a,
 body.portfolio li.portfolio a,
-body.contact li.contact a
+body.contact li.contact a,
 body.performances li.performances a
 {
       color: #8BC53F;
@@ -139,7 +139,7 @@ body.performances li.performances,
       body.about #about,
       body.thanks #thanks,
       body.contact #contact,
-      body.performances #performances
+      body.performances #performances,
       body.addproject #addproject
       {
             

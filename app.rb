@@ -64,8 +64,8 @@ end
 
 get '/performances' do
 
-  @page_title = "performances"
-  @projects = Project.all
+    @page_title = "performances"
+    @projects = Project.all
   
 
   erb :performances
