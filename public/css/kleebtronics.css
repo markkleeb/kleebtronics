@@ -200,13 +200,22 @@ body.main #update
  body.contact #location,
  body.addproject form #addproject
  {
-            display: inline;
+            display: block;
             font-size: 0.7em;
             float: left;
             padding: 0px 90px 15px 0px;
             line-height: 0.8em;
             height: 200px;
           
+            
+       }
+       
+       body.contact #form
+       {
+            
+            height: 400px;
+            display: block;
+            
             
        }
 
@@ -239,12 +248,12 @@ h2{
     padding: 10px 30px 30px 0px;
 }
 
-.input{
+.input input{
     position:absolute;
     text-align:left;
     display:inline;
-    font-family:helvetica;
-    padding: 10px 30px 50px 200px;
+    font-family:BureauAgency;
+    padding: 0px 30px 50px 200px;
 }
 
 #image-map{
