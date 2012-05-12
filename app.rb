@@ -16,6 +16,7 @@ class Project
   property :title,  String
   property :year, String
   property :link, String
+  property :type, String
   property :description, String
 end
 
@@ -64,7 +65,7 @@ end
 get '/performances' do
 
   @page_title = "performances"
-  @performances = Performance.all
+  @projects = Project.all
   
 
   erb :performances
@@ -119,6 +120,7 @@ post '/newproject' do
   project.title = params[:title]
   project.year = params[:year]
   project.link = params[:link]
+  project.type = params[:type]
   project.description = params[:description]
   
   
@@ -134,26 +136,3 @@ post '/newproject' do
   output
 end
 
-post '/newperformance' do
-  performance = Performance.new
-  
-  performance.id = params[:id]
-  performance.img_url = params[:img_url]
-  performance.img_hover = params[:img_hover]
-  performance.title = params[:title]
-  performance.year = params[:year]
-  performance.link = params[:link]
-  performance.description = params[:description]
-  
-  
-  performance.save
-  
-  output = ""
-  
-  for p in Performance.all
-    output += <<-HTML
-  #{p.img_url}<br/>#{p.title}<br/>#{p.year}<br/>#{p.description}<br/><br/>
-  HTML
-  end
-  output
-end

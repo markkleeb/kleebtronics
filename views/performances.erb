@@ -1,8 +1,8 @@
 <div id="performances">
 <div id="image-map">
-<% @performances.each do |performance| %>
+<% @projects.each do |project| %>
 <div id="project-image">
-    <a class="main-image" href="<%= performance.link %>" width="170" height="170"><img class="main" src="<%= performance.img_url %>" width="170"><img class="hover-image" src="<%= performance.img_hover %>" display="none" width="170"></a>
+    <a class="main-image" href="<%= project.link %>" width="170" height="170"><img class="main" src="<%= project.img_url %>" width="170"><img class="hover-image" src="<%= project.img_hover %>" display="none" width="170"></a>
 </div>
 <% end %>
 </div>

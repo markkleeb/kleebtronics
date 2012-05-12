@@ -40,7 +40,7 @@ background-image: url('/img/patterns/dark_brick_wall.png')
 a:link,
 a:visited{
        text-decoration:none;
-       color: black;
+       color: #2e2424;;
 }
 
 
@@ -118,7 +118,7 @@ body.performances li.performances,
       
       ul.menu li:hover{
        background-color:white;
-       color: black;
+       color: #2e2424;
       }
       
       
