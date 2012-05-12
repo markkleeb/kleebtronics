@@ -11,7 +11,7 @@ background-image: url('/img/patterns/dark_brick_wall.png');
 }
 
 #header {
-      height: 100px;
+      height: 150px;
 }
 
 #footer{
@@ -254,10 +254,9 @@ h2{
 }
 
 #image-map{
-      position: absolute;
-      margin: 10px 0px 10px 0px;
+      
       width: 800px;
-      background-color: #2e2424;
+      
 }
 #main-image{
       background-color: #2e2424;
