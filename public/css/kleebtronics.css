@@ -58,16 +58,16 @@ a:visited{
 
 
 
-body.blog li.blog a:link,
-body.blog li.blog a:visited,
-body.about li.about a:link,
-.about li.about a:visited,
-.portfolio li.portfolio a:link,
-.portfolio li.portfolio a:visited,
-body.contact li.contact a:link,
-body.contact li.contact a:visited,
-body.performances li.performances a:link,
-body.performances li.performances a:visited
+body.blog #nav li.blog a:link,
+body.blog #nav li.blog a:visited,
+body.about #nav li.about a:link,
+body.about #nav li.about a:visited,
+body.portfolio #nav li.portfolio a:link,
+body.portfolio #nav li.portfolio a:visited,
+body.contact #nav li.contact a:link,
+body.contact #nav li.contact a:visited,
+body.performances #nav li.performances a:link,
+body.performances #nav li.performances a:visited
 {
       color: #8BC53F;
        
@@ -212,22 +212,6 @@ body.main #update
       
 }
 
-
-
- body.contact #location,
- body.addproject form #addproject
- {
-            width: 800px;
-            display: block;
-            font-size: 0.7em;
-            float: left;
-            padding: 0px 90px 15px 0px;
-            line-height: 0.8em;
-            height: 100px;
-          
-            
-       }
-       
    
        
  
