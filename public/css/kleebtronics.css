@@ -209,7 +209,6 @@ body.main #update
             display: block;
             font-size: 0.7em;
             float: left;
-            margin-left: 100px;
             padding: 0px 90px 15px 0px;
             line-height: 0.8em;
             height: 100px;
@@ -220,8 +219,6 @@ body.main #update
        body.contact #form
        {
             float: left;
-            margin-left: 100px;
-            width: 800px;
             height: 400px;
             display: block;
             
@@ -231,7 +228,9 @@ body.main #update
        body.contact #line
        {
             display:block;
-            
+            position: relative;
+            margin-left: 100px;
+            width: 800px;
        }
 
 body.about #kleeblinks a{
@@ -250,8 +249,8 @@ h2{
 }
 
 #submit {
-    position: absolute;
-    padding: 130px 0px 0px 200px;
+    position: relative;
+    padding: 0px 0px 0px 0px;
 }
 
 .text{
