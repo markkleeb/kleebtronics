@@ -90,7 +90,7 @@ post '/send_email' do
       :subject => params[:name] + " has sent you an email",
       :body => params[:message]
   )
-  redirect '/~mk3981/sinatra/kleebtronics/thanks'
+  redirect '/thanks'
   
 end
 
