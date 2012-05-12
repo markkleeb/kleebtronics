@@ -45,7 +45,7 @@ background-image: url('/img/patterns/dark_brick_wall.png')
 a:link,
 a:visited{
        text-decoration:none;
-       color: #8BC53F;
+       color: black;
 }
 
 
@@ -90,6 +90,7 @@ body.contact li.contact,
 #nav {
       padding: 65px 0px 0px 200px;
       height: 120px;
+      background-image: url('/img/patterns/dark_brick_wall.png');
       
 }
  
