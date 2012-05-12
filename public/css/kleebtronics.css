@@ -74,7 +74,8 @@ body.portfolio li.portfolio,
 body.contact li.contact,
 #nav li:hover
 {
-      background-color: #8BC53F;
+      background-image: url('/img/patterns/dark_brick_wall.png')
+
        
 }
 
@@ -87,7 +88,7 @@ body.contact li.contact,
 }
 
 #nav {
-      padding: 70px 0px 0px 200px;
+      padding: 65px 0px 0px 200px;
       height: 120px;
       
 }
