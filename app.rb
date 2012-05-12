@@ -63,7 +63,7 @@ end
 
 get '/performances' do
 
-@page_title = "performances"
+  @page_title = "performances"
   @performances = Performance.all
   
 
