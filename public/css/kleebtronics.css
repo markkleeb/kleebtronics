@@ -44,6 +44,12 @@ a:visited{
 }
 
 
+#nav a:link,
+#nav a:visited{
+      
+      color: #2e2424;
+
+}
 
 #nav li:hover a {
        text-decoration: none;
@@ -242,14 +248,11 @@ h2{
     color: #8BC53F;
     font-size: 20px;
       font-family: BureauAgency;
-    padding: 10px 30px 30px 0px;
-  
 }
 
 .input{
     text-align:left;
     font-family:BureauAgency;
-    padding: 10px 30px 10px 0px;
 
 }
 
