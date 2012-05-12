@@ -58,15 +58,15 @@ a:visited{
 
 
 
-body.blog li.blog a,
+body.blog li.blog a:link,
 body.blog li.blog a:visited,
-body.about li.about a,
+body.about li.about a:link,
 .about li.about a:visited,
-.portfolio li.portfolio a,
+.portfolio li.portfolio a:link,
 .portfolio li.portfolio a:visited,
-body.contact li.contact a,
+body.contact li.contact a:link,
 body.contact li.contact a:visited,
-body.performances li.performances a,
+body.performances li.performances a:link,
 body.performances li.performances a:visited
 {
       color: #8BC53F;
