@@ -61,6 +61,16 @@ get '/portfolio/:id' do
   
 end
 
+get '/performances' do
+
+@page_title = "performances"
+  @performances = Performance.all
+  
+
+  erb :performances
+
+end
+
   
 get '/contact' do
   
@@ -117,6 +127,30 @@ post '/newproject' do
   output = ""
   
   for p in Project.all
+    output += <<-HTML
+  #{p.img_url}<br/>#{p.title}<br/>#{p.year}<br/>#{p.description}<br/><br/>
+  HTML
+  end
+  output
+end
+
+post '/newperformance' do
+  performance = Performance.new
+  
+  performance.id = params[:id]
+  performance.img_url = params[:img_url]
+  performance.img_hover = params[:img_hover]
+  performance.title = params[:title]
+  performance.year = params[:year]
+  performance.link = params[:link]
+  performance.description = params[:description]
+  
+  
+  performance.save
+  
+  output = ""
+  
+  for p in Performance.all
     output += <<-HTML
   #{p.img_url}<br/>#{p.title}<br/>#{p.year}<br/>#{p.description}<br/><br/>
   HTML

@@ -56,6 +56,7 @@ body.blog li.blog a,
 body.about li.about a,
 body.portfolio li.portfolio a,
 body.contact li.contact a
+body.performances li.performances a
 {
       color: #8BC53F;
        
@@ -67,6 +68,7 @@ body.blog li.blog,
 body.about li.about,
 body.portfolio li.portfolio,
 body.contact li.contact,
+body.performances li.performances,
 #nav li:hover
 {
       background-image: url('/img/patterns/dark_brick_wall.png');
@@ -137,6 +139,7 @@ body.contact li.contact,
       body.about #about,
       body.thanks #thanks,
       body.contact #contact,
+      body.performances #performances
       body.addproject #addproject
       {
             
