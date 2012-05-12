@@ -219,11 +219,18 @@ body.main #update
        
        body.contact #form
        {
+            float: left;
             margin-left: 100px;
             width: 800px;
             height: 400px;
             display: block;
             
+            
+       }
+       
+       body.contact #line
+       {
+            display:block;
             
        }
 
