@@ -17,7 +17,7 @@ background-image: url('/img/patterns/dark_brick_wall.png')
 #footer{
       
        margin: 0px 0px 0px 0px;
-      background-color: #2e2424;
+      background-image: url('/img/patterns/dark_brick_wall.png');
       width:800px;
       height: 500px;
       font-size: 20px;
@@ -40,7 +40,7 @@ background-image: url('/img/patterns/dark_brick_wall.png')
 a:link,
 a:visited{
        text-decoration:none;
-       color: black;
+       color: #8BC53F;
 }
 
 
@@ -57,7 +57,7 @@ body.about li.about a,
 body.portfolio li.portfolio a,
 body.contact li.contact a
 {
-      color: black;
+      color: #8BC53F;
        
 }
 
@@ -70,7 +70,7 @@ body.contact li.contact,
 #nav li:hover
 {
       background-image: url('/img/patterns/dark_brick_wall.png');
-      color: #8BC53F;
+      
        
 }
 
