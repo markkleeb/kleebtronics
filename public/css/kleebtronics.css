@@ -3,7 +3,7 @@
 font-family: helvetica, arial;
 font-size: large;
 color: white;
-background-color: #2e2424;
+background-color: #4E4848;
 line-height: 1.6em;
 width: 800px;
 padding: 0px 200px 50px 200px;
@@ -47,7 +47,7 @@ a:visited{
 #nav a:link,
 #nav a:visited{
       
-      color: #2e2424;
+      color: #4E4848;
 
 }
 
@@ -253,7 +253,7 @@ h2{
       
 }
 #main-image{
-      background-color: #2e2424;
+      background-color: #4E4848
       position: absolute;
       padding: 0px 25px 0px 25px;
       width: 300px;
