@@ -88,7 +88,7 @@ post '/send_email' do
       :from => params[:name] + "<" + params[:email] + ">",
       :to => 'kleeb930@gmail.com',
       :subject => params[:name] + " has sent you an email",
-      :body => params[:message]
+      :body => params[:message],
       :port => '587',
       :via => :smtp,
       :via_options => {
