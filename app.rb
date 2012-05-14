@@ -89,7 +89,18 @@ post '/send_email' do
       :to => 'kleeb930@gmail.com',
       :subject => params[:name] + " has sent you an email",
       :body => params[:message]
-  )
+      :port => '587',
+      :via => :smtp,
+      :via_options => {
+        :address              => 'smtp.sendgrid.net', 
+        :port                 => '587', 
+        :enable_starttls_auto => true, 
+        :user_name            => ENV['SENDGRID_USERNAME'], 
+        :password             => ENV['SENDGRID_PASSWORD'], 
+        :authentication       => :plain, 
+        :domain               => 'heroku.com'
+      }
+    )
   redirect '/thanks'
   
 end
