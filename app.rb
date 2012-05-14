@@ -134,16 +134,22 @@ post '/newproject' do
   project.description = params[:description]
   
   
-  project.save
+  if project.save
   
-  output = ""
+    status 201
+    output = ""
   
-  for p in Project.all
-    output += <<-HTML
-  #{p.img_url}<br/>#{p.title}<br/>#{p.year}<br/>#{p.description}<br/><br/>
-  HTML
-  end
-  output
+   for p in Project.all
+     output += <<-HTML
+     #{p.img_url}<br/>#{p.title}<br/>#{p.year}<br/>#{p.description}<br/><br/>
+      HTML
+      end
+      output
+  else
+    status 412
+    redirect '/addproject'
+    end
+  
 end
 
 DataMapper.finalize
