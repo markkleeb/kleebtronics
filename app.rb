@@ -5,7 +5,7 @@ require 'dm-postgres-adapter'
 require 'do_postgres'
 require 'pony'
 
-DataMapper::setup(:default, ENV['DATABASE_URL'])
+DataMapper::setup(:default, ENV['DATABASE_URL'] || "sqlite3://#{Dir.pwd}/development.db")
 
 class Project
   include DataMapper::Resource
