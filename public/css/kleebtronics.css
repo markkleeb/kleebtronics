@@ -100,7 +100,6 @@ body.performances li.performances,
       margin-top: 65px;
       margin-left: 200px;
       padding: 0px 0px 0px 0px;
-      height: 120px;
       background-image: url('/img/patterns/dark_brick_wall.png');
       
 }
@@ -128,7 +127,6 @@ body.performances li.performances,
       
       
       #logobox {
-       position: absolute;
        z-index: 900;
        float: left;
        margin: 0px 0px 0px 0px;
