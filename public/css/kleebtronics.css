@@ -223,7 +223,10 @@ body.about #kleeblinks a{
       
 }
 
-h2{
+h2,
+#upcoming,
+#past
+{
       color: #8BC53F;
       font-size: 10px;
       font-family: BureauAgency;
