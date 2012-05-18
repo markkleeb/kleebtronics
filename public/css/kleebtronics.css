@@ -144,7 +144,8 @@ body.performances li.performances,
       body.thanks #thanks,
       body.contact #contact,
       body.performances #performances,
-      body.addproject #addproject
+      body.addproject #addproject,
+      #list
       {
             
             padding: 50px 0px 50px 0px;
