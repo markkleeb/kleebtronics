@@ -10,38 +10,25 @@ zOrb is a wireless, programmable media controller designed to enhance the perfor
 
 <h3>Conceptualization</h3>
 <p>
-<img src = "/img/moshmural-ps.jpg" width="600" />
+<iframe src="http://player.vimeo.com/video/37351494?byline=0&amp;portrait=0&amp;color=ffffff" width="600" height="225" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 Digital musicians frequently rely on laptops to control many parts of their performances. We set out to design a device that could be used to remotely control parameters in a program without having to rely on a laptop.
 </p>
-
 <h3>Design</h3>
 <p>
-<img src = "/img/moshmural-2d.jpg" width="600" />
-Using an XBox Kinect, we were able to determine the positions of individual members of the audience. We were also able to determine the shape of their bodies. Using this data, we designed a visual show in <a href="http://www.openframeworks.cc/" target="_blank">openFrameworks</a> using the OpenCV library.
-<img src = "/img/moshmural-3d.jpg" width="600" />
-Inside each shape, we drew a few hundred swimming "boids." We used <a href="http://www.red3d.com/cwr/steer/">Craig Reynold's steering behaviors</a> to make them flock together and stay inside the shape. 
-
-<iframe src="http://player.vimeo.com/video/39652424?byline=0&amp;portrait=0&amp;color=ffffff" width="600" height="376" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-</p>
-<h3>Demonstration</h3>
-<p>
-<iframe width="600" height="338" src="http://www.youtube.com/embed/s7bgPbaovhQ" frameborder="0" allowfullscreen></iframe>
-The Mosh Mural has been installed in various music venues, including Public Assembly, Cameo Gallery, Death By Audio, and Secret Project Robot. It was eventually modified to respond to music, as well as movement. The current version of the code has two separate visual modes.
-<img src = "/img/mural-drums.jpg" width="600" />
+<img src="/img/zorb1.png" width="600"/>
+The zOrb consists of an Arduino Mini, a Bluetooth transmitter, a 3-axis accelerometer, and a 2-axis gyroscope. Using serial communication on the Bluetooth port, we are able to get the data from the accelerometer and gyroscope and use it in programs such as <a href="http://www.cycling74.com">Max/MSP</a> or <a href="http://www.puredata.info">PureData</a>.
+<iframe src="http://player.vimeo.com/video/36578121?byline=0&amp;portrait=0&amp;color=ffffff" width="600" height="375" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 </p>
 <h3>Acknowledgements</h3>
 <p>
-Dan Shiffman and the <a href="http://www.shiffman.net/teaching/nature/">Nature of Code</a> class at <a href="http://itp.nyu.edu/itp/">ITP</a>, Jared Schiffman and Spatial Media, Rune Skjoldborg, <a href="http://www.jeffcrouse.info/how-tos/shiffman-meets-openframeworks/">Jeff Crouse</a> and his translation of Dan's code into openFrameworks
-</p>
-<p>
-<a href="https://github.com/markkleeb/MoshMural">Mosh Mural</a> on GitHub
+Benedetta Piantella and the <a href="http://itp.nyu.edu/physcomp/Intro/HomePage">Intro to Physical Computing</a> class at ITP, Hans Christoph-Steiner and the <a href="http://itp.nyu.edu/dataflow/">Intro to Dataflow Programming</a> class, Tony Lim, 
 </p>
 <div class="row">
 <div class="span2">
-<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.kleebtronics.com/moshmural" data-via="kleeb930">Tweet</a>
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.kleebtronics.com/zorb" data-via="kleeb930">Tweet</a>
 </div>
 <div class="span2">
-<div class="fb-like" data-href="http://www.kleebtronics.com/moshmural" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+<div class="fb-like" data-href="http://www.kleebtronics.com/zorb" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
 </div>
 </div>
 </div>
