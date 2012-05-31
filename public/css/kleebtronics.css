@@ -16,7 +16,7 @@ background-image: url('/img/patterns/dark_brick_wall.png');
 
 #footer{
       
-       margin: 0px 0px 0px 0px;
+       margin: 0px 0px 0px 100px;
        padding: 0px;
       background-image: url('/img/patterns/dark_brick_wall.png');
       width:800px;
@@ -71,14 +71,14 @@ a:visited{
       
       color: #8BC53F;
       font-size: 50px;
-      padding: 20px;
+      padding: 50px;
 }
 
 #project p #created-by{
       
       color: white;
-      font-size: 20px;
-      padding: 10px;
+      font-size: 30px;
+      padding: 20px;
       
 }
 
