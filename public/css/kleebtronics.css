@@ -4,7 +4,6 @@ font-size: large;
 color: white;
 background-color: #4E4848;
 line-height: 1.6em;
-width: 50em;
 background-image: url('/img/patterns/dark_brick_wall.png');
 text-align: center;
 
@@ -20,7 +19,7 @@ text-align: center;
       width:50em;
       font-size: 20px;
       display: block;
-      border-top: solid 3px;
+      border-top: solid 3px black;
       
       
       
@@ -61,7 +60,7 @@ a:visited{
       font-size: 20px;
       font-family: georgia;
       line-height: 1.6em;
-      margin: 20px 100px 20px 100px;     
+      text-align: left;
 }
 
 #project h2,
