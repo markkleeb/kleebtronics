@@ -57,20 +57,28 @@ a:visited{
        color: #8BC53F;       
 }
 
-#moshmural
+#project
 {
       color: white;
       font-size: 14px;
       font-family: BureauAgency;
-      margin: 20px 50px 20px 50px;
+      margin: 20px 200px 20px 200px;
       
       
 }
 
-#moshmural h2{
+#project h2{
       
       color: #8BC53F;
+      font-size: 50px;
+      padding: 20px;
+}
+
+#project p #created-by{
+      
+      color: white;
       font-size: 20px;
+      padding: 10px;
       
 }
 
