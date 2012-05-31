@@ -6,19 +6,23 @@
 created by: <a href="http://www.kleebtronics.com">Mark Kleback</a>, <a href="http://www.artificialsanity.net/">Ali Sajjadi</a>, and <a href="http://itp.nyu.edu/~as6319/blog/">Alex Samoilescu</a>
 </p>
 <p>
+<h3></h3>
 The Mosh Mural is a spatial visualizer for a performance space that responds to the movement of the audience.
 </p>
 <p>
 <h3>Conceptualization</h3>
 <img src = "/img/moshmural-ps.jpg" width="600" />
 The idea for the Mosh Mural came from observing crowds at performance venues. While watching the musicians, audience members seldom danced or moved very much to the music. We set out to encourage crowd participation in the venue using responsive visuals.
-<iframe src="http://player.vimeo.com/video/39652424?byline=0&amp;portrait=0&amp;color=ffffff" width="600" height="376" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
 </p>
 <p>
 <h3>Design</h3>
 <img src = "/img/moshmural-2d.jpg" width="600" />
 Using an XBox Kinect, we were able to determine the positions of individual members of the audience. We were also able to determine the shape of their bodies. Using this data, we designed a visual show in <a href="http://www.openframeworks.cc/" target="_blank">openFrameworks</a> using the OpenCV library.
 <img src = "/img/moshmural-3d.jpg" width="600" />
+Inside each shape, we drew a few hundred swimming "boids." We used <a href="http://www.red3d.com/cwr/steer/">Craig Reynold's steering behaviors</a> to make them flock together and stay inside the shape. 
+
+<iframe src="http://player.vimeo.com/video/39652424?byline=0&amp;portrait=0&amp;color=ffffff" width="600" height="376" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 </p>
 <p>
 <h3>Demonstration</h3>
@@ -27,6 +31,11 @@ The Mosh Mural has been installed in various music venues, including Public Asse
 <img src = "/img/moshmural-drums.jpg" width="600" />
 </p>
 <p>
+<h3>Acknowledgements</h3>
+Dan Shiffman and the Nature of Code class at <a href="http://itp.nyu.edu/itp/">ITP</a>, Jared Schiffman and Spatial Media, Rune Skjoldborg, <a href="http://www.jeffcrouse.info/how-tos/shiffman-meets-openframeworks/">Jeff Crouse</a> and his translation of Dan's code into openFrameworks
+</p>
+<p>
+<h3></h3>
 <a href="https://github.com/markkleeb/MoshMural">Mosh Mural</a> on GitHub
 </p>
 </div>
