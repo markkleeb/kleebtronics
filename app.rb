@@ -118,6 +118,14 @@ get '/moshmural' do
   
   erb :moshmural
   
+end
+
+get '/zorb' do
+  
+  @page_title = "zorb"
+  
+  erb :zorb
+  
   end
 
 
