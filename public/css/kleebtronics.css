@@ -170,10 +170,11 @@ body.performances li.performances,
       #logobox {
        z-index: 900;
        float: left;
-       margin-right: 200px;
-       text-align: left;
+      }
       
-       
+      #logobox img{
+            text-align: left;
+            padding-right: 100px;
       }
       
       
