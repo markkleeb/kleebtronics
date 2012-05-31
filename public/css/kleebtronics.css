@@ -1,6 +1,6 @@
  body{
        width: auto;
-font-family: helvetica, arial;
+font-family: helvetica, arial, georgia;
 font-size: large;
 color: white;
 background-color: #4E4848;
@@ -60,9 +60,9 @@ a:visited{
 #project
 {
       color: white;
-      font-size: 30px;
-      font-family: BureauAgency;
-      line-height: 3em;
+      font-size: 20px;
+      font-family: georgia;
+      line-height: 1.6em;
       margin: 20px 200px 20px 200px;     
 }
 
@@ -72,6 +72,7 @@ a:visited{
 {
       
       color: #8BC53F;
+      font-family: BureauAgency;
       font-size: 50px;
       padding: 50px;
 }
@@ -80,6 +81,7 @@ a:visited{
       color: #8BC53F;
       font-size: 30px;
       padding: 50px;
+      font-family: BureauAgency;
       
 }
 
