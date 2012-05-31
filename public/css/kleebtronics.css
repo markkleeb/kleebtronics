@@ -21,6 +21,7 @@ text-align: center;
       width:50em;
       font-size: 20px;
       display: block;
+      border-top: solid 3px;
       
       
       
@@ -175,6 +176,8 @@ body.performances li.performances,
       body.contact #contact,
       body.performances #performances,
       body.addproject #addproject
+      body.moshmural #moshmural
+      body.zorb #zorb
       {
             
             padding: 50px 0px 50px 0px;
@@ -186,6 +189,7 @@ body.performances li.performances,
             margin-left: auto;
             margin-right: auto;
             text-align: left;
+            border-top: solid 3px;
 
             
       }
