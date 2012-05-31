@@ -60,21 +60,27 @@ a:visited{
 #project
 {
       color: white;
-      font-size: 14px;
+      font-size: 20px;
       font-family: BureauAgency;
-      margin: 20px 200px 20px 200px;
-      
-      
+      margin: 20px 200px 20px 200px;     
 }
 
-#project h2{
+#project h2,
+#project img
+{
       
       color: #8BC53F;
       font-size: 50px;
       padding: 50px;
 }
 
-#project p #created-by{
+#project h3{
+      color: #8BC53F;
+      font-size: 30px;
+      
+}
+
+#project p{
       
       color: white;
       font-size: 30px;
