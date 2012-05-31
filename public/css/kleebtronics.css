@@ -22,7 +22,6 @@ text-align: center;
       width:50em;
       font-size: 20px;
       display: block;
-      border-top: solid 3px black;
       margin-left: auto;
       margin-right: auto;
       
@@ -168,6 +167,7 @@ body.performances li.performances,
       #logobox {
        z-index: 900;
        float: left;
+       margin-right: 200px;
       
        
       }
@@ -196,6 +196,8 @@ body.performances li.performances,
             margin-right: auto;
             text-align: left;
             border-top: solid 3px;
+            border-bottom: solid 3px;
+            border-color: black;
 
             
       }
