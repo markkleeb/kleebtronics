@@ -67,7 +67,8 @@ a:visited{
 }
 
 #project h2,
-#project img
+#project img,
+#project iframe
 {
       
       color: #8BC53F;
@@ -78,6 +79,7 @@ a:visited{
 #project h3{
       color: #8BC53F;
       font-size: 30px;
+      padding: 50px;
       
 }
 
