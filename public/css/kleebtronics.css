@@ -60,8 +60,9 @@ a:visited{
 #project
 {
       color: white;
-      font-size: 20px;
+      font-size: 30px;
       font-family: BureauAgency;
+      line-height: 3em;
       margin: 20px 200px 20px 200px;     
 }
 
@@ -82,8 +83,6 @@ a:visited{
 
 #project p{
       
-      color: white;
-      font-size: 30px;
       padding: 20px;
       
 }
