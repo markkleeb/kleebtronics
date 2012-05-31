@@ -112,6 +112,15 @@ get '/thanks' do
   
 end
 
+get '/moshmural' do
+  
+  @page_title = "moshmural"
+  
+  erb :moshmural
+  
+  end
+
+
 get '/addproject' do
   
   @page_title = "addproject"
