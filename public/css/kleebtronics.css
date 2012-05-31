@@ -140,7 +140,6 @@ body.performances li.performances,
      
       background-image: url('/img/patterns/dark_brick_wall.png');
       padding-top: 65px;
-      margin-left: 100px;
       
 }
  
@@ -169,6 +168,7 @@ body.performances li.performances,
        z-index: 900;
        float: left;
        margin-right: 200px;
+       text-align: left;
       
        
       }
