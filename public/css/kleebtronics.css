@@ -33,7 +33,7 @@ background-image: url('/img/patterns/dark_brick_wall.png');
 
 @font-face {
         font-family: BureauAgency;
-        src: url('http://stu.itp.nyu.edu/~mk3981/BureauAgency.otf');
+        src: url('/BureauAgency.otf');
       }
        
       
@@ -55,6 +55,23 @@ a:visited{
 #nav li:hover a {
        text-decoration: none;
        color: #8BC53F;       
+}
+
+#moshmural
+{
+      color: white;
+      font-size: 14px;
+      font-family: BureauAgency;
+      margin: 20px 50px 20px 50px;
+      
+      
+}
+
+#moshmural h2{
+      
+      color: #8BC53F;
+      font-size: 20px;
+      
 }
 
 
