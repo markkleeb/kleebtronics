@@ -11,6 +11,9 @@ text-align: center;
 
 #header {
       height: 150px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50em;
 }
 
 #footer{
@@ -20,6 +23,8 @@ text-align: center;
       font-size: 20px;
       display: block;
       border-top: solid 3px black;
+      margin-left: auto;
+      margin-right: auto;
       
       
       
@@ -63,15 +68,18 @@ a:visited{
       text-align: left;
 }
 
-#project h2,
-#project img,
-#project iframe
-{
-      
+#project h2{
       color: #8BC53F;
       font-family: BureauAgency;
       font-size: 50px;
       padding: 30px;
+      
+}
+#project img,
+#project iframe
+{
+      padding: 30px;
+      width: 600px;
 }
 
 #project h3{
