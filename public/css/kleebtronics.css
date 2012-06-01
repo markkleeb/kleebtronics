@@ -150,6 +150,7 @@ body.performances li.performances,
  ul.menu, ul.menu li, ul.menu ul {
         list-style: none;
         z-index: 800;
+        position: absolute;
         font-family: BureauAgency;
         font-size: 50px;
         padding: 20px 10px 20px 10px;
