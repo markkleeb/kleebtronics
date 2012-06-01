@@ -142,6 +142,14 @@ get '/dbaanimation' do
   
   erb :dbaanimation
   
+end
+
+get '/fractalearrings' do
+  
+  @page_title = "fractalearrings"
+  
+  erb :fractalearrings
+  
   end
 
 
