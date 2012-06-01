@@ -195,7 +195,10 @@ body.performances li.performances,
       body.thejob #project
       {
             
-            padding: 100px;
+            padding-left: 100px;
+            padding-right: 100px;
+            padding-bottom:50px;
+            padding-top: 50px;
             width: 800px;
             color: white;
             font-size: 20px;
