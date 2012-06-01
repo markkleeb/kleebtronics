@@ -191,7 +191,8 @@ body.performances li.performances,
       body.performances #performances,
       body.addproject #addproject,
       body.moshmural #project,
-      body.zorb #project
+      body.zorb #project,
+      body.thejob #project
       {
             
             padding: 50px;
