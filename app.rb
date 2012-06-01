@@ -128,6 +128,14 @@ get '/zorb' do
   
   end
 
+get '/thejob' do
+  
+  @page_title = "thejob"
+  
+  erb :thejob
+  
+  end
+
 
 get '/addproject' do
   
