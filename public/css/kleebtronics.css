@@ -6,6 +6,9 @@ background-color: #4E4848;
 line-height: 1.6em;
 background-image: url('/img/patterns/dark_brick_wall.png');
 text-align: center;
+margin-left: auto;
+margin-right: auto;
+width: 50em;
 
 }
 
@@ -307,9 +310,11 @@ h2,
 
 }
 
-#image-map img{
+#image-map {
       
+      height: 800px;
       text-align: center;
+      padding-left: 10px;
       
 }
 #main-image{
