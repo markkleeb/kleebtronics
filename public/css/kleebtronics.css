@@ -66,7 +66,6 @@ a:visited{
       font-family: georgia;
       line-height: 1.6em;
       margin-bottom: 10px;
-      padding-left: 50px;
       border-bottom: 3px solid black;
 }
 
@@ -76,12 +75,14 @@ a:visited{
       font-size: 50px;
       padding-top: 20px;
       padding-bottom: 20px;
+      padding-left: 100px;
       
 }
 #project img,
 #project iframe
 {
       width: 600px;
+      padding-left: 100px;
 }
 
 #project h3{
@@ -90,6 +91,7 @@ a:visited{
       font-family: BureauAgency;
        padding-top: 20px;
       padding-bottom: 20px;
+      padding-left: 100px;
       
 }
 
@@ -99,6 +101,7 @@ a:visited{
       padding-bottom: 30px;
       font-size: 20px;
       line-height: 1.6em;
+      padding-left: 100px;
       
 }
 
