@@ -95,6 +95,7 @@ a:visited{
 #project p{
       
       padding-top: 30px;
+      padding-bottom: 30px;
       font-size: 20px;
       line-height: 1.6em;
       
@@ -193,7 +194,7 @@ body.performances li.performances,
       body.zorb #project
       {
             
-            padding: 50px 0px 50px 0px;
+            padding: 50px;
             width: 800px;
             color: white;
             font-size: 20px;
