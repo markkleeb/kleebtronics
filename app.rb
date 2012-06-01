@@ -134,6 +134,14 @@ get '/thejob' do
   
   erb :thejob
   
+end
+
+get '/dbaanimation' do
+  
+  @page_title = "dbaanimation"
+  
+  erb :dbaanimation
+  
   end
 
 
