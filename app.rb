@@ -152,6 +152,14 @@ get '/fractalearrings' do
   
   end
 
+get '/voronoi' do
+  
+  @page_title = "voronoi"
+  
+  erb :voronoi
+  
+  end
+
 
 get '/addproject' do
   
