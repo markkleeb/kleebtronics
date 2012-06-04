@@ -158,6 +158,14 @@ get '/voronoi' do
   
   erb :voronoi
   
+end
+
+get '/waitinggame' do
+  
+  @page_title = "waitinggame"
+  
+  erb :waitinggame
+  
   end
 
 
