@@ -4,7 +4,7 @@ font-size: large;
 color: white;
 background-color: #4E4848;
 line-height: 1.6em;
-background-image: url('/img/patterns/dark_brick_wall.png');
+background-image: url('https://s3.amazonaws.com/kleebtronics-media/img/patterns/dark_brick_wall.png');
 text-align: center;
 
 
@@ -19,7 +19,7 @@ text-align: center;
 
 #footer{
       
-      background-image: url('/img/patterns/dark_brick_wall.png');
+      background-image: url('https://s3.amazonaws.com/kleebtronics-media/img/patterns/dark_brick_wall.png');
       width:800px;
       font-size: 20px;
       display: block;
@@ -35,7 +35,7 @@ text-align: center;
 
 @font-face {
         font-family: BureauAgency;
-        src: url('/BureauAgency.otf');
+        src: url('https://s3.amazonaws.com/kleebtronics-media/fonts/BureauAgency.otf');
       }
        
       
@@ -126,7 +126,7 @@ body.contact li.contact,
 body.performances li.performances,
 #nav li:hover
 {
-      background-image: url('/img/patterns/dark_brick_wall.png');
+      background-image: url('https://s3.amazonaws.com/kleebtronics-media/img/patterns/dark_brick_wall.png');
        color: #8BC53F;
       
        
@@ -141,7 +141,7 @@ body.performances li.performances,
 
 #nav {
      
-      background-image: url('/img/patterns/dark_brick_wall.png');
+      background-image: url('https://s3.amazonaws.com/kleebtronics-media/img/patterns/dark_brick_wall.png');
       padding-top: 65px;
       padding-bottom: 50px;
       
@@ -162,7 +162,7 @@ body.performances li.performances,
       
        
         padding: 0px 20px 0px 20px;
-        background-image: url('/img/patterns/dark_brick_wall.png');
+        background-image: url('https://s3.amazonaws.com/kleebtronics-media/img/patterns/dark_brick_wall.png');
         float: left;
         position: relative;
       }
