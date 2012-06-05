@@ -168,6 +168,14 @@ get '/waitinggame' do
   
   end
 
+get '/powersupply' do
+  
+  @page_title = "powersupply"
+  
+  erb :powersupply
+  
+  end
+
 
 get '/addproject' do
   
