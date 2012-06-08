@@ -160,6 +160,14 @@ get '/voronoi' do
   
 end
 
+get '/touchbar' do
+  
+  @page_title = "touchbar"
+  
+  erb :touchbar
+  
+end
+
 get '/waitinggame' do
   
   @page_title = "waitinggame"
