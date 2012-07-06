@@ -184,6 +184,15 @@ get '/powersupply' do
   
   end
 
+get '/videomixer' do
+  
+  @page_title = "videomixer"
+  
+  erb :videomixer
+  
+  end
+
+
 
 get '/addproject' do
   
