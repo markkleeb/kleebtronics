@@ -29,6 +29,7 @@ function mouseOutLogo(){
 #}
   
 </script>
+  
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -45,7 +46,7 @@ function mouseOutLogo(){
   </head>
   
   
-  <body class="<%= @page_title %>">
+  <body class="contact">
  <div id="header">  
  <div class="row">
   <div class="span2">
@@ -61,19 +62,21 @@ onmouseout="mouseOutMenu()"><a href="http://stu.itp.nyu.edu/~mk3981/blog">Blog</
     <li id="menu" class="portfolio" onmouseover="mouseOverMenu()"
 onmouseout="mouseOutMenu()"><a href="/portfolio">Portfolio</a></li>
     <li id="menu" class="contact" onmouseover="mouseOverMenu()"
-onmouseout="mouseOutMenu()"><a href="/contact">Contact</a></li>
+onmouseout="mouseOutMenu()"><a href="mailto:mark@kleebtronics.com?Subject=Kleebtronics%20Inquiry">Contact</a></li>
   </ul>
 </div>
 </div>
 </div>
 </div>
+  
+  
+  <body class="<%= @page_title %>">
+
+
 <%= yield %>
 <div id="footer">
 <ul id = "nav" class="menu">
 <li id="menu" class="twitter"><a href="http://twitter.com/#!/kleeb930" target="_blank">Twitter</a>
-</li>
-<li id="menu" class="facebook">
-<a href="http://www.facebook.com/kleeb" target="_blank">Facebook</a>
 </li>
 <li id="menu" class="vimeo">
 <a href="http://vimeo.com/user8412426/videos" target="_blank">Vimeo</a>
@@ -83,5 +86,6 @@ onmouseout="mouseOutMenu()"><a href="/contact">Contact</a></li>
 </li>
 </ul>
 </div>
+
 </body>
 </html>
