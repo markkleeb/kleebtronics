@@ -136,6 +136,14 @@ get '/thejob' do
   
 end
 
+get '/sequencer' do
+  
+  @page_title = "sequencer"
+  
+  erb :sequencer
+  
+end
+
 get '/dbaanimation' do
   
   @page_title = "dbaanimation"
