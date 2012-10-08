@@ -192,6 +192,14 @@ get '/powersupply' do
   
   end
 
+  get '/nerdyderby' do
+  
+  @page_title = "nerdyderby"
+  
+  erb :nerdyderby
+  
+  end
+
 get '/videomixer' do
   
   @page_title = "videomixer"
