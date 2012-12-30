@@ -152,6 +152,14 @@ get '/dbaanimation' do
   
 end
 
+get '/printingcode' do
+  
+  @page_title = "printingcode"
+  
+  erb :printingcode
+  
+end
+
 get '/fractalearrings' do
   
   @page_title = "fractalearrings"
