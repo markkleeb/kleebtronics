@@ -1,0 +1,397 @@
+ body{
+font-family: helvetica, arial, georgia;
+font-size: large;
+color: white;
+background-color: #000000;
+line-height: 1.6em;
+text-align: left;
+
+
+}
+
+#header {
+      height: 150px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 800px;
+}
+
+#footer{
+      
+      width:800px;
+      font-size: 20px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      
+      
+      
+}
+
+
+
+@font-face {
+        font-family: BureauAgency;
+        src: url('https://s3.amazonaws.com/kleebtronics-media/fonts/BureauAgency.eot');
+        src: url('https://s3.amazonaws.com/kleebtronics-media/fonts/BureauAgency.woff') format('woff'),
+              url('https://s3.amazonaws.com/kleebtronics-media/fonts/BureauAgency.ttf') format('truetype'),
+              url('https://s3.amazonaws.com/kleebtronics-media/fonts/BureauAgency.svg') format('svg');
+      }
+       
+      
+
+a:link,
+a:visited{
+       text-decoration:none;
+       color: #8BC53F;
+}
+
+
+#nav a:link,
+#nav a:visited{
+      
+      color: #4E4848;
+
+}
+
+#nav li:hover a {
+       text-decoration: none;
+       color: #8BC53F;       
+}
+
+#frame
+{
+      color: white;
+      font-size: 20px;
+      font-family: georgia;
+      line-height: 1.6em;
+      margin-bottom: 10px;
+      border-bottom: 3px solid black;
+}
+
+#frame h2{
+      color: #8BC53F;
+      font-family: BureauAgency;
+      font-size: 50px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 100px;
+      
+}
+
+
+#frame h3{
+      color: #8BC53F;
+      font-size: 40px;
+      font-family: BureauAgency;
+       padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 100px;
+      
+}
+
+#frame p,
+section,
+#content{
+      
+      padding-top: 30px;
+      padding-bottom: 30px;
+      font-size: 20px;
+      line-height: 1.6em;
+      padding-left: 100px;
+      
+}
+
+
+
+body.blog #nav li.blog a:link,
+body.blog #nav li.blog a:visited,
+body.about #nav li.about a:link,
+body.about #nav li.about a:visited,
+body.portfolio #nav li.portfolio a:link,
+body.portfolio #nav li.portfolio a:visited,
+body.contact #nav li.contact a:link,
+body.contact #nav li.contact a:visited,
+body.performances #nav li.performances a:link,
+body.performances #nav li.performances a:visited
+{
+      color: #8BC53F;
+       
+}
+
+
+
+body.blog li.blog,
+body.about li.about,
+body.portfolio li.portfolio,
+body.contact li.contact,
+body.performances li.performances,
+#nav li:hover
+{
+       color: #8BC53F;
+      
+       
+}
+
+
+#header-pic {
+    width:50em;
+    z-index:900;
+    height:150px;
+}
+
+#nav {
+     
+      padding-top: 65px;
+      padding-bottom: 50px;
+      
+}
+ 
+ 
+ ul.menu, ul.menu li, ul.menu ul {
+        list-style: none;
+        z-index: 800;
+        position: absolute;
+        font-family: BureauAgency;
+        font-size: 50px;
+        padding: 20px 10px 20px 10px;
+        
+      }
+
+      ul.menu li {
+      
+       
+        padding: 0px 20px 0px 20px;
+        float: left;
+        position: relative;
+      }
+      
+      
+      
+      #logobox {
+       z-index: 900;
+       float: left;
+      }
+      
+      #logobox img{
+            text-align: left;
+            padding-right: 100px;
+      }
+      
+      
+      
+     #frame,
+     #portfolio
+      {
+            
+            padding-left: 100px;
+            padding-right: 100px;
+            padding-bottom:50px;
+            padding-top: 50px;
+            width: 800px;
+            color: white;
+            font-size: 20px;
+            font-family: BureauAgency;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: left;
+            margin-bottom: 20px;
+            border-top: solid 3px;
+            border-bottom: solid 3px;
+            border-color: #4E4848;
+
+            
+      }
+      
+    
+      body performances #list{
+            color: white;
+            font-family: BureauAgency;
+            font-size: 16px;
+            display: block;
+            
+            
+      }
+      
+      
+      body.about img.kleeb{
+       
+       z-index: 500;
+    margin: 0px 0px 30px 0px;
+    display: inline;
+    position: absolute;
+       
+      
+      }
+      
+      
+      
+       body.about #aboutme{
+            display: inline;
+            font-size: 0.7em;
+            position: absolute;
+            float: left;
+            padding: 0px 90px 15px 20px;
+            margin: 0px 50px 0px 0px;
+            
+       }
+      
+      body.about #aboutme a,
+      body.main #update a{
+            
+            text-decoration: underline;
+            color: white;
+      }
+      
+      
+
+
+
+
+body.main #update
+{
+      font-size: 0.8em;
+      border: solid;
+      border-color: #8BC53F;
+      border-width: 0px 0px 3px 0px;
+      
+}
+
+   
+       
+ 
+body.about #kleeblinks a{
+      text-decoration: underline;
+      color: white;
+      font-size: 0.7em;
+      line-height:0.8em;
+      
+}
+
+h2,
+#upcoming,
+#past
+{
+      color: #8BC53F;
+      font-size: 10px;
+      font-family: BureauAgency;
+      
+}
+
+
+
+.text{
+   
+    text-align:left;
+    color: #8BC53F;
+    padding-bottom: 10px;
+    font-size: 20px;
+      font-family: BureauAgency;
+}
+
+.input{
+      padding-bottom: 10px;
+    text-align:left;
+    font-family:BureauAgency;
+
+}
+
+#image-map {
+      
+      height: 1000px;
+      text-align: center;
+      padding-left: 10px;
+      
+}
+#main-image{
+      background-color: #4E4848;
+      position: absolute;
+      padding: 0px 25px 0px 25px;
+      width: 300px;
+}
+
+#project-title{
+      text-align: left;
+      
+}
+
+#project-year{
+      text-align: right;
+      display: inline;
+}
+#project-image{
+       
+       float:left;
+      display: block;
+      padding-right: 20px;
+      padding-bottom: 20px;
+     
+}
+
+.main-image
+.hover-image{
+      display:none;
+}
+
+
+#project-image a:hover
+.main{
+    display:none;
+}
+
+#project-image a:hover
+.hover-image{
+      
+      display: inline;
+      
+}
+
+.blog-date{
+position:relative;
+z-index:2;
+background: black;
+
+}
+
+
+.blog-image{
+position:relative;
+z-index:1;
+
+}
+
+.blog-title{
+position:relative;
+z-index:3;
+background: black;
+
+}
+
+/* miscellaneous
+----------------------------------------*/
+
+.post-date {
+  color: #999999;
+  font-size: .9em;
+  margin-bottom: .8em;
+}
+
+
+/* clearfix */
+
+.group:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+* html .group {
+  height: 1%;
+}
+
+*:first-child+html .group {
+  min-height: 1px;
+}
+
