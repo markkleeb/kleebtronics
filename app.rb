@@ -168,6 +168,14 @@ get '/fractalearrings' do
   
   end
 
+  get '/jewelry' do
+  
+  @page_title = "jewelry"
+  
+  erb :jewelry
+  
+  end
+
 get '/voronoi' do
   
   @page_title = "voronoi"
