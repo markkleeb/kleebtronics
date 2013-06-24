@@ -32,6 +32,12 @@ get '/' do
   
 end
 
+get '/reel' do
+  @page_title = "reel"
+
+  erb :reel
+
+end
 
 
 get '/about' do
