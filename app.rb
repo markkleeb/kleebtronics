@@ -77,6 +77,16 @@ get '/performances' do
 
 end
 
+get '/deathbyarcade' do
+
+    @page_title = "Death By Arcade"
+    
+  
+
+  erb :deathbyarcade
+
+end
+
   
 get '/contact' do
   
