@@ -1,0 +1,41 @@
+<div id="frame">
+<h2>ScreamBooth</h2>
+<p>
+<img src="https://s3.amazonaws.com/kleebtronics-media/img/screambooth/screambooth.png" width="600"/>
+</p>
+<p>
+<a href="http://screambooth.us">ScreamBooth</a> is a photo booth that generates an animated Gif when the user screams into the microphone. 
+</p>
+<h3>Team</h3>
+<p>
+<strong>Arduino programming, Back-end web programming:</strong> Mark Kleback
+<br/>
+<strong>Front-end web design:</strong> <a href="http://cibernetic.com/" target="_blank">Yucef Merhi</a>
+<br/>
+<strong>Java programming:</strong> <a href="http://www.dannewoo.com/" target="_blank">Danne Woo</a>
+<br/>
+<strong>Hardware testing:</strong> <a href="http://www.penacosta.com/" target="_blank">Guilherme Costa</a>
+</p>
+<h3>Conceptualization</h3>
+<p>
+Photo booths are a popular form of entertainment at parties and events, and the ability to upload them directly to a website allows people to revisit their memories long after an event takes place. For Halloween, we wanted to combine the traditional photo booth concept with animated gifs. We also wanted to use the act of screaming as the input, making for an amusing photo gallery.
+</p>
+<h3>Design</h3>
+<p>
+The ScreamBooth app is written in Java in the Processing IDE. An electret microphone attached to an Arduino triggers the sketch to begin taking photos. When a user screams loud enough to pass the threshold, the app snaps a series of photos and uploads the compiled gif to a Python server. The gif file is routed to Amazon S3 and the metadata for the photo is stored in MongoDB. 
+</p>
+<p>
+<img src="https://s3.amazonaws.com/kleebtronics-media/img/screambooth/screamgif.gif" width="600"/>
+
+<p>
+If you want to book the Scream Booth, <a href="mailto:mark@kleebtronics.com?Subject=Scream Booth Inquiry">contact me</a> for more details
+</p>
+<div class="row">
+<div class="span2 offset2">
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://kleebtronics.com/screambooth" data-via="kleeb930">Tweet</a>
+</div>
+<div class="span2">
+<div class="fb-like" data-href="http://kleebtronics.com/screambooth" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+</div>
+</div>
+</div>

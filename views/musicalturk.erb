@@ -1,0 +1,49 @@
+<div id="frame">
+<h2>Musical Turk</h2>
+<p>
+<img src="http://musicalturk.com/static/img/turk-web.jpg" width="500" />
+</p>
+<p>
+Musical Turk is a crowd-sourced musical project that allows musicians to contribute to a transient composition that exists online as well as in live performance venues.
+</p>
+<h3>Conceptualization</h3>
+<p>
+Crowd-sourcing has become an efficient way to create content in fields like journalism, open-source technology, and fundraising. For Musical Turk, I wanted to explore the concept of a crowd-sourced musical composition using a website database, as well as a live performance. A website seemed like the most obvious place to collect samples and give instructions, however I also liked the spontaneity of live musicians creating music together in a performance space. This project combines a collection of samples from a website with live recordings that happen in realtime, allowing the composition to evolve and change with each performance.
+</p>
+<h3>Design</h3>
+<p>
+<a href="http://musicalturk.com">Musical Turk</a> is a website that prompts users to upload audio samples with specific parameters. Using Python and MongoDB, these samples are stored online, and can be downloaded from the website manually. The file locations are also stored in an <a href="http://musicalturk.com/data/loops">open API</a>, so that external applications can access the files, as well as the metadata about each track.
+</p>
+<p>During a performance, a local Python script will hit the API and check for new tracks every few seconds. Through OSC, this script will send the metadata to an openFrameWorks sketch that adds the track to an audio mixer. An Arduino Mega controls the hardware of the mixer, selecting the track that is playing, as well as the volume of that track. Since the API is hit every few seconds, tracks that are uploaded to the website are added to the performance in real time.
+</p>
+<p>
+In addition to the tracks on the website, the live performance encourages the audience members to add new tracks using a recording module. A separate computer running Max/MSP can record inputs through an external audio device like a mixer, and upload these files directly to the database using another Python script. These live samples are then pulled back down to the openFrameWorks sketch and mixed in with pre-recorded sounds from the web. This allows musicians witnessing the live performance to contribute at the venue, as well as at home.
+</p>
+
+
+<div id="galleria">
+<img src="https://s3.amazonaws.com/musicalturk-pics/DBA-show.png" width="800"/>
+<img src="https://s3.amazonaws.com/musicalturk-pics/visuals.png" width='800' />
+<img src="https://s3.amazonaws.com/musicalturk-pics/img-console.jpg" width='800'/>
+<img src="https://s3.amazonaws.com/musicalturk-pics/la-sala-jay.png" width='800' />
+    	</div>
+    
+<h3>Performances</h3>
+<p>
+Musical Turk has been performed at music venues like Death By Audio, La Sala, and Secret Project Robot in Brooklyn, NY. Check out the <a href="http://musicalturk.com">website</a> for a schedule of upcoming performances, or <a href="http://musicalturk.com/upload">contribute</a> to the database of crowd-sourced samples.
+</p>
+
+<script>
+Galleria.loadTheme('https://s3.amazonaws.com/kleebtronics-media/js/galleria/themes/classic/galleria.classic.min.js');
+Galleria.run('#galleria');
+</script>
+
+<div class="row">
+<div class="span2 offset2">
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.kleebtronics.com/musicalturk" data-via="kleeb930">Tweet</a>
+</div>
+<div class="span2">
+<div class="fb-like" data-href="http://www.kleebtronics.com/musicalturk" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+</div>
+</div>
+</div>

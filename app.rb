@@ -97,6 +97,36 @@ get '/arduinosynth' do
 
 end
 
+get '/musicalturk' do
+
+    @page_title = "Musical Turk"
+    
+  
+
+  erb :musicalturk
+
+end
+
+get '/adhesionparadox' do
+
+    @page_title = "Adhesion Paradox"
+    
+  
+
+  erb :adhesionparadox
+
+end
+
+get '/screambooth' do
+
+    @page_title = "Scream Booth"
+    
+  
+
+  erb :screambooth
+
+end
+
   
 get '/contact' do
   

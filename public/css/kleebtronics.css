@@ -328,23 +328,14 @@ h2,
      
 }
 
-.main-image
-.hover-image{
-      display:none;
+#project-image a:hover .main{
+    -webkit-filter: invert(100%);
+    
+
 }
 
 
-#project-image a:hover
-.main{
-    display:none;
-}
 
-#project-image a:hover
-.hover-image{
-      
-      display: inline;
-      
-}
 
 .blog-date{
 position:relative;
