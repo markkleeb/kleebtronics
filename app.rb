@@ -87,6 +87,16 @@ get '/deathbyarcade' do
 
 end
 
+get '/arduinosynth' do
+
+    @page_title = "Arduino Synth"
+    
+  
+
+  erb :arduinosynth
+
+end
+
   
 get '/contact' do
   
