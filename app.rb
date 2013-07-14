@@ -93,7 +93,7 @@ get '/arduinosynth' do
     
   
 
-  erb :arduino-synth
+  erb :arduinosynth
 
 end
 
@@ -141,7 +141,7 @@ post '/send_email' do
  
   Pony.mail( 
       :from => params[:name] + "<" + params[:email] + ">",
-      :to => 'kleeb930@gmail.com',
+      :to => 'mark@kleebtronics.com',
       :subject => params[:name] + " has sent you an email",
       :body => params[:message],
       :port => '587',
