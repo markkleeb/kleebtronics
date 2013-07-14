@@ -93,7 +93,7 @@ get '/arduinosynth' do
     
   
 
-  erb :arduinosynth
+  erb :arduino-synth
 
 end
 
